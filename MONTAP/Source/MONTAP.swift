@@ -10,6 +10,18 @@ import Alamofire
 import AlamofireObjectMapper
 import ObjectMapper
 
+public class EmptyResponse: Mappable {
+    public required init?(map: Map) {
+        
+    }
+    
+    public func mapping(map: Map) {
+        
+    }
+    
+    
+}
+
 public class MONTAP {
     public static let shared = MONTAP()
     // You can set this to a var if you want
